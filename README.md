@@ -184,6 +184,7 @@ If `fetch()` throws (e.g., file not found, network offline):
 ## Screenshots
 
 > Add screenshots here comparing implementation vs Figma design.
+![img-1](image-1.png), ![img-2](image-2.png)
 ---
 
 ## Evaluation Checklist

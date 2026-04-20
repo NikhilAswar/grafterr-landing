@@ -17,7 +17,7 @@ A pixel-perfect, fully responsive landing page for **Grafterr** - a restaurant t
 
 ## Live URL
 
-> Deploy link here after publishing to Vercel
+>(https://grafterr-landing-seven.vercel.app/)
 
 ---
 

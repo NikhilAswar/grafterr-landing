@@ -1,0 +1,207 @@
+/*  WRAPPER */
+.heroWrapper {
+  background: #ffffff;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  HERO BODY*/
+.heroBody {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  gap: 0;
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Headline */
+.headline {
+  font-size: clamp(2.5rem, 6vw, 75px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 24px 0;
+  font-family: 'Raleway-Bold';
+}
+
+.headlinePrefix {
+  color: #1a1a2e;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 94px;
+}
+
+.headlineGradient {
+background: linear-gradient(90deg, #5895F0 0%, #F1B662 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+/* Subheadline */
+.subheadline {
+  font-size: 23px;
+  color: #6b7280; 
+  line-height: 38px;
+  margin: 0 0 32px 0;
+  letter-spacing: -1%;
+  max-width: 650px;
+  font-family: 'Raleway-Regular';
+}
+
+.subheadline strong {
+  color: #374151;
+  font-weight: 700;
+}
+
+/* CTA button */
+.heroCta {
+  padding: 12px 60px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Raleway-Bold';
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #5895F0 0%, #F1B662 100%);
+  box-shadow: none;
+}
+
+/*SKELETON LINES */
+.skeletonWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.skLine {
+  border-radius: 6px;
+  background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  height: 16px;
+  width: 100%;
+}
+
+.skLineTitle {
+  height: 48px;
+  width: 55%;
+}
+
+.skLineGradient {
+  height: 52px;
+  width: 75%;
+}
+
+.skLineSub {
+  height: 14px;
+  width: 85%;
+}
+
+.skLineSub2 {
+  height: 14px;
+  width: 65%;
+}
+
+.skNav {
+  height: 32px;
+  width: 100%;
+}
+
+.skBtn {
+  width: 140px;
+  height: 44px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  margin-top: 4px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/*ERROR*/
+.errorState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  text-align: center;
+  padding: var(--spacing-2xl);
+}
+
+.errorIcon {
+  font-size: 3rem;
+}
+
+.errorMessage {
+  color: #ef4444;
+  max-width: 360px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .navCta {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .heroBody {
+    padding: 60px 20px 80px;
+  }
+
+  .headline {
+    font-size: clamp(2rem, 8vw, 2.6rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .headline {
+    font-size: 2rem;
+  }
+
+  .subheadline {
+    font-size: 0.9rem;
+  }
+}

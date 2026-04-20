@@ -1,0 +1,73 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Track */
+.trackContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  width: 100%;
+}
+
+
+
+.slide {
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+/* ARROWS-centred below cards, circles  */
+.arrowRow {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid #d1d5db;
+background: #DDDDDD;
+    color: #374151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.arrow:hover:not(.arrowDisabled) {
+  border-color: #3b82f6;
+  color: #3b82f6;
+  background: #eff6ff;
+}
+
+.arrow:active:not(.arrowDisabled) {
+  transform: scale(0.93);
+}
+
+.arrowDisabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Mobile: no padding on slides */
+@media (max-width: 640px) {
+  .slide { padding: 0 6px; }
+}
+
+/* arrow image */
+.arrow img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  display: block;
+}

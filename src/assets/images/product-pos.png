@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- Stand base -->
+  <rect x="180" y="310" width="120" height="16" rx="8" fill="#2d2d2d"/>
+  <rect x="220" y="280" width="40" height="36" rx="4" fill="#3d3d3d"/>
+  <!-- Screen bezel -->
+  <rect x="40" y="30" width="400" height="260" rx="16" fill="#1a1a1a"/>
+  <!-- Screen -->
+  <rect x="52" y="42" width="376" height="236" rx="8" fill="#fff"/>
+  <!-- Top nav bar -->
+  <rect x="52" y="42" width="376" height="36" rx="8" fill="#7c3aed"/>
+  <rect x="52" y="60" width="376" height="18" fill="#7c3aed"/>
+  <rect x="66" y="52" width="80" height="16" rx="4" fill="white" opacity="0.3"/>
+  <rect x="160" y="52" width="60" height="16" rx="4" fill="white" opacity="0.2"/>
+  <rect x="234" y="52" width="60" height="16" rx="4" fill="white" opacity="0.2"/>
+  <!-- Left sidebar -->
+  <rect x="52" y="78" width="56" height="200" fill="#f3f4f6"/>
+  <rect x="60" y="90" width="40" height="30" rx="6" fill="#7c3aed" opacity="0.15"/>
+  <rect x="60" y="128" width="40" height="30" rx="6" fill="transparent"/>
+  <rect x="60" y="166" width="40" height="30" rx="6" fill="transparent"/>
+  <rect x="60" y="204" width="40" height="30" rx="6" fill="transparent"/>
+  <!-- Product grid -->
+  <rect x="116" y="84" width="88" height="70" rx="8" fill="#fff3ed"/>
+  <circle cx="160" cy="108" r="18" fill="#f97316" opacity="0.7"/>
+  <rect x="122" y="134" width="76" height="10" rx="4" fill="#374151" opacity="0.5"/>
+  <rect x="212" y="84" width="88" height="70" rx="8" fill="#fff3ed"/>
+  <circle cx="256" cy="108" r="18" fill="#ef4444" opacity="0.7"/>
+  <rect x="218" y="134" width="76" height="10" rx="4" fill="#374151" opacity="0.5"/>
+  <rect x="308" y="84" width="88" height="70" rx="8" fill="#fff3ed"/>
+  <circle cx="352" cy="108" r="18" fill="#f59e0b" opacity="0.7"/>
+  <rect x="314" y="134" width="76" height="10" rx="4" fill="#374151" opacity="0.5"/>
+  <rect x="116" y="162" width="88" height="70" rx="8" fill="#fff3ed"/>
+  <circle cx="160" cy="186" r="18" fill="#10b981" opacity="0.7"/>
+  <rect x="122" y="212" width="76" height="10" rx="4" fill="#374151" opacity="0.5"/>
+  <rect x="212" y="162" width="88" height="70" rx="8" fill="#fff3ed"/>
+  <circle cx="256" cy="186" r="18" fill="#6366f1" opacity="0.7"/>
+  <rect x="218" y="212" width="76" height="10" rx="4" fill="#374151" opacity="0.5"/>
+  <!-- Order panel right -->
+  <rect x="308" y="162" width="120" height="116" rx="8" fill="#f9fafb"/>
+  <rect x="316" y="172" width="104" height="10" rx="4" fill="#374151" opacity="0.4"/>
+  <rect x="316" y="190" width="80" height="8" rx="4" fill="#374151" opacity="0.2"/>
+  <rect x="316" y="206" width="90" height="8" rx="4" fill="#374151" opacity="0.2"/>
+  <rect x="316" y="222" width="70" height="8" rx="4" fill="#374151" opacity="0.2"/>
+  <rect x="316" y="246" width="104" height="24" rx="6" fill="#7c3aed"/>
+  <rect x="340" y="252" width="56" height="12" rx="4" fill="white" opacity="0.6"/>
+</svg>

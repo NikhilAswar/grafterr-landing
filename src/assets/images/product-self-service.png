@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- Kiosk base plate -->
+  <ellipse cx="240" cy="340" rx="80" ry="12" fill="#d1d5db"/>
+  <rect x="220" y="300" width="40" height="44" rx="6" fill="#9ca3af"/>
+  <!-- Kiosk pole -->
+  <rect x="228" y="240" width="24" height="72" rx="4" fill="#6b7280"/>
+  <!-- Screen outer -->
+  <rect x="120" y="40" width="240" height="210" rx="16" fill="#e5e7eb"/>
+  <!-- Screen bezel -->
+  <rect x="128" y="48" width="224" height="196" rx="12" fill="#1f2937"/>
+  <!-- Screen display -->
+  <rect x="136" y="56" width="208" height="180" rx="8" fill="#fff"/>
+  <!-- Top header -->
+  <rect x="136" y="56" width="208" height="36" rx="8" fill="#7c3aed"/>
+  <rect x="136" y="74" width="208" height="18" fill="#7c3aed"/>
+  <rect x="150" y="66" width="80" height="12" rx="4" fill="white" opacity="0.5"/>
+  <!-- Menu items 2x2 grid -->
+  <rect x="144" y="100" width="88" height="60" rx="8" fill="#fef3c7"/>
+  <circle cx="188" cy="122" r="14" fill="#f59e0b" opacity="0.8"/>
+  <rect x="150" y="148" width="76" height="8" rx="4" fill="#374151" opacity="0.4"/>
+  <rect x="240" y="100" width="88" height="60" rx="8" fill="#fee2e2"/>
+  <circle cx="284" cy="122" r="14" fill="#ef4444" opacity="0.8"/>
+  <rect x="246" y="148" width="76" height="8" rx="4" fill="#374151" opacity="0.4"/>
+  <rect x="144" y="168" width="88" height="60" rx="8" fill="#dcfce7"/>
+  <circle cx="188" cy="190" r="14" fill="#22c55e" opacity="0.8"/>
+  <rect x="150" y="218" width="76" height="8" rx="4" fill="#374151" opacity="0.4"/>
+  <rect x="240" y="168" width="88" height="60" rx="8" fill="#ede9fe"/>
+  <circle cx="284" cy="190" r="14" fill="#7c3aed" opacity="0.8"/>
+  <rect x="246" y="218" width="76" height="8" rx="4" fill="#374151" opacity="0.4"/>
+  <!-- Scanner strip at bottom of kiosk -->
+  <rect x="128" y="248" width="224" height="6" rx="3" fill="#ef4444" opacity="0.6"/>
+</svg>
